@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 a {
@@ -15,12 +14,11 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+:root {
+  --black: #3b434e;
+  --white: white;
+  --primary: #7653fc;
+  --red: #fc836d;
+  --green: #1dc37e;
+  --green-ligth: #c8f8e4;
 }
