@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>
-        <title>MyTop - наш лучший топ</title>
+        <title>MyTop - лучшие курсы</title>
         <meta name="description" content="My Top by Adilet Berdibekov app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

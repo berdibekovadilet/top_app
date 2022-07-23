@@ -3,6 +3,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Manrope", sans-serif;
+  color: var(--black);
+  background: #f5f6f8;
 }
 
 a {
@@ -12,6 +14,8 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -21,4 +25,5 @@ a {
   --red: #fc836d;
   --green: #1dc37e;
   --green-ligth: #c8f8e4;
+  --font-family: "Manrope", sans-serif;
 }
