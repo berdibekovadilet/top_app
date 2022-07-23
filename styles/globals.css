@@ -20,10 +20,12 @@ a {
 
 :root {
   --black: #3b434e;
+  --gray-light: #ebebeb;
   --white: white;
   --primary: #7653fc;
+  --primary-hover: #6344df;
   --red: #fc836d;
   --green: #1dc37e;
-  --green-ligth: #c8f8e4;
+  --green-light: #c8f8e4;
   --font-family: "Manrope", sans-serif;
 }
