@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Button, Htag } from "../components";
+import { Button, Htag, P } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -8,6 +8,9 @@ const Home: NextPage = () => {
       <Button appearance="primary">Узнать подробнее</Button>
       <Button appearance="ghost">Читать отзывы</Button>
       <Button appearance="ghost">Читать отзывы</Button>
+      <P size="s">успешно конкурировать с веб-дизайнерами уровня small.</P>
+      <P size="m">успешно конкурировать с веб-дизайнерами уровня middle.</P>
+      <P size="l">успешно конкурировать с веб-дизайнерами уровня large.</P>
     </div>
   );
 };
