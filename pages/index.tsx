@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import { Button, Htag, P, Rating, Tag } from "../components";
+import { Layout } from "../layout/Layout";
 
 const Home: NextPage = () => {
   const [counter, setCounter] = useState<number>(0);
-  const [rating, setRating] = useState<number>(1);
+  const [rating, setRating] = useState<number>(4);
   return (
-    <div>
+    <Layout>
       <Htag tag="h1">{counter}</Htag>
       <Button
         appearance="primary"
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
       <Tag color="grey">10000</Tag>
       <Tag color="primary">10000</Tag>
       <Rating rating={rating} isEditable setRating={setRating} />
-    </div>
+    </Layout>
   );
 };
 
