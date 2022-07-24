@@ -2,21 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    domains: ["courses-top.ru"],
-  },
-  webpack(config, options) {
+  webpack(config) {
     config.module.rules.push({
-      loader: "@svgr/webpack",
-      options: {
-        prettier: false,
-        svgo: true,
-        svgoConfig: {
-          plugins: [{ removeViewBox: false }],
-        },
-        titleProp: true,
-      },
       test: /\.svg$/,
+      use: ["@svgr/webpack"],
     });
 
     return config;
